@@ -2,7 +2,7 @@
 
 IgnisGuard is a production-grade machine learning application designed to predict and monitor forest fire risks using meteorological data and Fire Weather Indices (FWI). Trained on the Algerian Forest Fires dataset, the system leverages an ensemble Random Forest architecture to provide real-time, high-confidence risk assessments.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ignisguard.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://ignisguard.streamlit.app](https://ignisguard-forest-fire-prediction.streamlit.app/)
 
 ---
 
@@ -16,7 +16,7 @@ IgnisGuard is a production-grade machine learning application designed to predic
 
 ## 🛠️ Technical Stack
 
-- **Engine**: Python 3.x
+- **Engine**: Python 
 - **Framework**: Streamlit (Web UI)
 - **Machine Learning**: Scikit-Learn (Random Forest Classifier)
 - **Data Engineering**: Pandas, NumPy
@@ -70,7 +70,7 @@ graph TD
 
 ### 1. Clone & Setup
 ```bash
-git clone https://github.com/yourusername/forest-fire-prediction.git
+git clone https://github.com/DBMoktan/forest-fire-prediction.git
 cd forest-fire-prediction
 pip install -r requirements.txt
 ```
@@ -80,7 +80,7 @@ Synchronize the model with the latest data logic:
 ```bash
 python src/train_pipeline.py
 ```
-
+`
 ### 3. Launch IgnisGuard
 ```bash
 streamlit run app/app.py
