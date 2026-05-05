@@ -2,7 +2,7 @@
 
 IgnisGuard is a production-grade machine learning application designed to predict and monitor forest fire risks using meteorological data and Fire Weather Indices (FWI). Trained on the Algerian Forest Fires dataset, the system leverages an ensemble Random Forest architecture to provide real-time, high-confidence risk assessments.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://ignisguard.streamlit.app](https://ignisguard-forest-fire-prediction.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ignisguard-forest-fire-prediction.streamlit.app/)
 
 ---
 
